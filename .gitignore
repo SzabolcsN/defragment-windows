@@ -1,0 +1,58 @@
+# Exclude compiled binaries
+*.exe
+*.out
+*.app
+*.bin
+*.elf
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+
+# Exclude build and intermediate directories
+/build/
+/bin/
+/obj/
+CMakeFiles/
+CMakeCache.txt
+*.cmake
+*.ninja
+*.vcxproj
+*.vcxproj.user
+*.vcxproj.filters
+*.sln
+
+# Exclude debugging files
+*.pdb
+*.ilk
+*.stackdump
+*.dbg
+
+# Exclude Makefile and CMake generated files
+Makefile
+cmake_install.cmake
+compile_commands.json
+
+# Exclude logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# Exclude editor/IDE specific files
+.vscode/
+.idea/
+*.code-workspace
+*.clangd
+.clangd/
+*.ccls
+.ccls-cache/
+*.vscode
+
+# Exclude macOS and Windows system files
+.DS_Store
+Thumbs.db
