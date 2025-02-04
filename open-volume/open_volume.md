@@ -1,4 +1,4 @@
-# Volume Opener: Brief Description
+# Volume Opener
 
 This code demonstrates how to open a volume on a Windows system by using the **WinAPI**. The program allows the user to specify a drive letter (e.g., `C`) and attempts to open the corresponding volume (`\\.\C:`) with both **read** and **write** access. If successful, it reports success; otherwise, it provides detailed error information
 
